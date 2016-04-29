@@ -11,6 +11,15 @@ public class Sort012Array {
 
 	}
 
+	/**
+	 * 
+	 * @param arr
+	 * @return
+	 */
+	// The algorithm below first counts the 0s & 1s and uses these counts to
+	// create the sorted array with elements from set {0,1,2}. Since there will
+	// be single loop with running time n, it is of O(n).
+
 	private static int[] sort012Array(int[] arr) {
 
 		int count0 = 0;
