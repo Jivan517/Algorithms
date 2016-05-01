@@ -14,7 +14,7 @@ public class BubbleSort {
 
 	}
 
-	//Certainly I(0) is true (when
+	//Loop Invariant, I(0) is true (when
 	/*
 	 * i=0 pass completes, largest element has been placed at the end). Assume
 	 * I(i) holds; we show arr[n-i-2]..arr[n-1] are in final sorted order. As
